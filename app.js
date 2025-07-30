@@ -19,7 +19,7 @@ const Img = [];
         values.push(value);
         console.log(values)
 
-        Img.push(`<img src="dice/${value}.png" alt="${value}">`);
+        Img.push(`<img src="${value}.png" alt="${value}">`);
 
         
     }
