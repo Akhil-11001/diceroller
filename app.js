@@ -43,7 +43,7 @@ submit.onclick = function(){
         const value  = Math.floor(Math.random() * 6 +1);
 
         values.push(value);
-        Img.push(`<img src="dice/${value}.png" alt="dice of ${value}">`);
+        Img.push(`<img src="${value}.png" alt="dice of ${value}">`);
     
     }
 
